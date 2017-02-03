@@ -31,9 +31,8 @@
        "metadata": {
         "description": "The version of Windows Server to use"
       },
-      "defaultValue": "2016-Datacenter",
+      "defaultValue": "2012-R2-Datacenter",
       "allowedValues": [
-        "2012-Datacenter",
         "2012-R2-Datacenter",
         "2016-Datacenter"
       ]
@@ -43,7 +42,7 @@
       "metadata": {
         "description": "The location of resources, such as templates and DSC modules, that the template depends on"
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/active-directory-new-domain"
+      "defaultValue": "https://raw.githubusercontent.com/heshamamin/azure-arm-templates/tree/master/active-directory-new-domain"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
